@@ -1,5 +1,9 @@
 package com.yunjae.producer
 
+/**
+  * brokers : localhost:9092
+  * topic : first
+  */
 object Main extends App {
   val scanner = new java.util.Scanner(System.in)
   print("brokers : ")
